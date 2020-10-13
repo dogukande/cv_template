@@ -1,0 +1,84 @@
+/* CSS property for content section */ 
+
+ @media screen and (min-width: 701px) {
+    div.responsive {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    div.responsive {
+      font-size: 8px;
+    }
+  }
+  
+  body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .main{
+    text-align: center;
+  }
+  
+  .columnA { 
+      margin: 0 auto;
+      float: left; 
+      width: 15%;
+      height: 100%; 
+      text-align:justify; 
+      background-color: rgb(62, 67, 72);
+  } 
+  
+  .columnB { 
+      margin: 0 auto;
+      height: 100%;
+      text-align:justify; 
+      background-color: rgb(223, 225, 226);
+  } 
+  
+  .flex {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .flex > div {
+    border: 1px solid white;
+    height: 30%;
+  }
+  
+  .ppicture {
+    margin-top: 10%;
+    height: 60%;
+    border-radius: 80%;
+  }
+  
+  .sidebar1{
+    text-align: center;
+  }
+  
+  .sidebar2{
+    display: block;
+  }
+  
+  .boxp {
+
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+    margin-left:25%; 
+    width:50%;
+    border: 2px solid white;
+    color: white;
+    text-shadow: 4px 4px 4px #aaa;
+
+  }
+  
+  .boxtext {
+    margin: 5px;
+  }
+
+  .leftp {
+    color: white;
+  }
