@@ -63,7 +63,6 @@
   }
   
   .boxp {
-
     font-weight: 800;
     text-align: center;
     margin-top: 0px;
@@ -71,7 +70,6 @@
     width:50%;
     border: 2px solid white;
     color: white;
-    text-shadow: 4px 4px 4px #aaa;
 
   }
   
@@ -81,4 +79,11 @@
 
   .leftp {
     color: white;
+  }
+
+  .expertise-table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: inherit;
   }
